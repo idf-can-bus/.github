@@ -15,7 +15,7 @@ This project demonstrates CAN bus communication on ESP-IDF platforms using multi
 Simplified high-level wrapper for ESP32's built-in TWAI (CAN) controller with automatic error recovery.
 
 ### 🔌 [mcp25xxx-multi-idf-can](https://github.com/idf-can-bus/mcp25xxx-multi-idf-can)
-Multi-device adapter for MCP25xxx family (MCP2515, MCP25625) - supports multiple CAN controllers via SPI.
+Multi-device adapter for MCP25xxx family (MCP2515, MCP25625) - supports **multiple CAN controllers** via one or two SPIs.
 
 ### 🛠️ [examples-utils-idf-can](https://github.com/idf-can-bus/examples-utils-idf-can)
 Common utility functions shared across all CAN examples.
