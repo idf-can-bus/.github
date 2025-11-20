@@ -7,7 +7,9 @@ A collection of modular, production-ready CAN libraries for ESP32 platforms.
 ## Projects
 
 ### 🎯 [can-multibackend-idf](https://github.com/idf-can-bus/can-multibackend-idf)
-Unified interface supporting multiple CAN backends - switch seamlessly between TWAI and MCP25xxx controllers via Kconfig.
+Multi-Backend CAN Example Suite for ESP-IDF.
+
+This project demonstrates CAN bus communication on ESP-IDF platforms using multiple hardware backends. It provides a collection of working examples that can run on different CAN controllers (built-in TWAI or external MCP25xxx via SPI) with minimal code changes, making it easy to compare different hardware solutions and choose the best fit for your application.
 
 ### 📡 [twai-idf-can](https://github.com/idf-can-bus/twai-idf-can)
 Simplified high-level wrapper for ESP32's built-in TWAI (CAN) controller with automatic error recovery.
